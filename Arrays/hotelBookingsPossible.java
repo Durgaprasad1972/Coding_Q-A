@@ -16,6 +16,6 @@ public class hotelBookingsPossible {
             }
             if(n > K) { return false; }
         }
-        return true;
+        return true
     }
 }
