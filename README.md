@@ -1,1 +1,1 @@
-**This repository mainly contains coding questions from InterviewBit with there answers**
+**This repository mainly contains coding questions with there optimal solutions**
