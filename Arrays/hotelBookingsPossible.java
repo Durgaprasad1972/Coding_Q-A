@@ -1,3 +1,4 @@
+/* Problem statement is in description*/
 public class hotelBookingsPossible {
     public boolean hotel(ArrayList<Integer> arrive, ArrayList<Integer> 
                         depart, int K) {
@@ -16,6 +17,6 @@ public class hotelBookingsPossible {
             }
             if(n > K) { return false; }
         }
-        return true
+        return true;
     }
 }
