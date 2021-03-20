@@ -1,7 +1,5 @@
 /*You are given an n x n 2D matrix representing an image.
-
 Rotate the image by 90 degrees (clockwise).
-
 You need to do this in place.
 
 Note that if you end up using an additional array, you will only receive partial score.
@@ -12,16 +10,16 @@ If the array is
 [
     [1, 2,3,4],
     [5,6,7,8],
-	  [9,10,11,12],
-	  [13,14,15,16]
+    [9,10,11,12],
+    [13,14,15,16]
 ]
 
 Then the rotated array becomes:
 [
     [13,9,5,1],
     [14,10,6,2],
-	  [15,11,7,3],
-	  [16,12,8,4]
+    [15,11,7,3],
+    [16,12,8,4]
 ]
 */
 
