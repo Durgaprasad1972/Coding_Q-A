@@ -30,7 +30,7 @@ Output 1:
 Output 2:
  [0, 1, 4, 16, 25]
 */
-public class Sort_array_with_squares {
+public class sort_array_with_squares {
     public ArrayList<Integer> solve(ArrayList<Integer> A) {
         int i = 0, j = A.size() - 1;
         ArrayList<Integer> B = new ArrayList<Integer>();
