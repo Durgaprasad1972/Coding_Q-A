@@ -12,7 +12,7 @@ Output:[3, 4]
 A = 3, B = 4
 */
 
-public class Repeat_and_Missing_Number_Array{
+public class repeat_and_Missing_Number_Array{
     // DO NOT MODIFY THE LIST. IT IS READ ONLY
     public ArrayList<Integer> repeatedNumber(final List<Integer> A) {
         int i,a = 0,b;
