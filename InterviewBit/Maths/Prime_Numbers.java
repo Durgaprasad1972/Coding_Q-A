@@ -8,6 +8,7 @@ all primes till 7 = {2, 3, 5, 7}
 */
 
 public class Prime_Numbers {
+    //sieve of Eratosthenes methods
     public ArrayList<Integer> sieve(int A) {
         int i,j;
         ArrayList<Integer> result = new ArrayList<>();
