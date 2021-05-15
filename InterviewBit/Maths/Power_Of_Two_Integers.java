@@ -10,18 +10,14 @@ as 2^2 = 4.
 */
 public class Power_Of_Two_Integers {
     public int isPower(int A) {
-        int i;
-        //double num = 0.0;
-        int num;
-        if(A == 1){
+        if(A==1)
             return 1;
-        }
-        
-        for(i = 2;i <= (int)Math.sqrt(A);i++){
-            double n = Math.round(Math.pow(A,1.0/(double)i) * 10000d)/10000d;
-            if(n % 1 == 0){
+        int i;
+        for(i=2;i*i<=A;i++)
+        {
+            int c=log(A)/log(i);
+            if(pow(i,c)==A)
                 return 1;
-            }
         }
         return 0;
     }
