@@ -58,7 +58,7 @@ Explanation 2: Maximum sum 2 x 2 matrix is
   2 2
   Sum = 8
 */
-public class Maximum_Sum_Square_SubMatrix {
+public class maximum_Sum_Square_SubMatrix {
     public int solve(ArrayList<ArrayList<Integer>> A, int B) {
         int i,j,maxSum = Integer.MIN_VALUE,sum = 0;
         int n = A.size();
